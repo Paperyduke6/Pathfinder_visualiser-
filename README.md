@@ -1,10 +1,15 @@
-# Getting Started with Create React App
+# Pathfinding Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Pathfinder Visualiser! This application explores two pathfinding algorithms, and visualises them as well. 
 
-## Available Scripts
+### Algorithms
 
-In the project directory, you can run:
+This application supports the following algorithms:
+
+- Dijkstra's Algorithm (weighted): the father of pathfinding algorithms; guarantees the shortest path
+
+- A Search* (weighted): arguably the best pathfinding algorithm; uses heuristics to guarantee the shortest path much faster than Dijkstra's Algorithm
+
 
 ### `npm start`
 
