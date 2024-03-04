@@ -1,5 +1,5 @@
 # Pathfinding Visualizer
-
+https://pathfinder-visualiser-870c6.web.app/ : link for you to have fun too!!
 Welcome to Pathfinder Visualiser! This application explores two pathfinding algorithms, and visualises them as well. 
 
 ### Algorithms
@@ -10,6 +10,11 @@ This application supports the following algorithms:
 
 - A Search* (weighted): arguably the best pathfinding algorithm; uses heuristics to guarantee the shortest path much faster than Dijkstra's Algorithm
 
+## Errors
+
+For SAAS not found error run the command "npm install --save-dev node-sass sass-loader style-loader css-loader mini-css-extract-plugin --legacy-peer-deps" to make it work
+
+for firbase init use "Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass"
 
 ### `npm start`
 
