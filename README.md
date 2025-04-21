@@ -1,3 +1,9 @@
+# Known Issues
+The grid is updated using methods such as onMouseUp, onMouseDown, onMouseEnter and onMouseLeave. This is used to simulate the mouse behaviour while interacting with the grid but the project can be used with a trackpad and touch screen as well which results in the grid not being updated after continued use(While using trackpad or touch screen). This is currently bring worked on by improving the mouse state methods.
+
+# Current Fixes
+The Pathfinder Visualiser grid can be reset after use if it may not be functioning properly as the update methods do not function properly with some inputs 
+
 # Pathfinding Visualizer
 https://pathfinder-visualiser-870c6.web.app/ : link for you to have fun too!!
 Welcome to Pathfinder Visualiser! This application explores two pathfinding algorithms, and visualises them as well. 
