@@ -313,8 +313,13 @@ export default class PathfinderVisualizer extends Component {
     grid.forEach(function(row){
       for (let i = 0; i < row.length; i++){
         let node = (row[i]);
+        node.isVisited = false;
+        node.distance = Infinity;
+        node.previousNode = null;
+        node.isPath = false;
         if (!node.isStart && !node.isFinish && !node.isWall){
-          document.getElementById(`node-${node.row}-${node.col}`).className = 'node';
+          const element = document.getElementById(`node-${node.row}-${node.col}`);
+          if (element) element.className = 'node';
         }
       }
     });
